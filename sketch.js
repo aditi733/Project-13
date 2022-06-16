@@ -14,7 +14,7 @@ function preload(){
   // red_balloonImage = loadImage("red_balloon0.png");
   // red_balloonImage = loadImage("redballoon0.png");
   // red_balloonImage = loadImage("red_balloon0");
-  // red_balloonImage = loadImage("red_balloon0.png");
+  red_balloonImage = loadImage("red_balloon0.png");
   
 }
 
@@ -89,13 +89,13 @@ function draw() {
   arrow.scale = 0.3;
 }
 
-// function redBalloon() {
-//   var red = createSprite(0,50, 10, 10);
-//   red.addImage(red_balloonImage);
-//   red.velocityX = 3;
-//   red.lifetime = 150;
-//   red.scale = 0.1;
-// }
+function redBalloon() {
+  var red = createSprite(0,50, 10, 10);
+  red.addImage(red_balloonImage);
+  red.velocityX = 3;
+  red.lifetime = 150;
+  red.scale = 0.1;
+}
 
 // function redBalloon() {
 //   var red = createSprite(,Math.round(random(20, 370)),50, 10, 10);
